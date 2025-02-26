@@ -24,6 +24,8 @@ Ros code to connect the occulus quest to ROS and recive the controler Position/v
 
 `roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=<YOUR_IP> tcp_port:=10000`
 
+  6-1 when the server's listener does not work, disable the firewall
+  ``sudo ufw disable``
 7. Set <YOUR_IP> and the same port in the VR and press **apply**
 
 8. You should see [INFO] in the terminal that the connection is established
